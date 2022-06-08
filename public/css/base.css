@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+#navbar {
+    background-color: purple;
+    margin-bottom: 0px;
+    height:60px;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#minicard-image {
+    max-width: 300px;
+    height:auto;
+    object-fit:fill;
+}
+
+#inicio {
+    border-style: solid;
+    border-width: 2px;
+    border-color: yellow;
+    background-color: white;
+    color: rgb(100, 40, 202);
+}
+
+#botaocard {
+    height: 30px;
+    width: 400px;
+    padding: 2px;
+    margin:2px;
+    font-size: x-small;
+}
+
+#backgrounddetudo {
+    background-color: rgb(216, 127, 164);
+}
+
+#imgInicio {
+    max-width: 150px;
+    height:auto;
+    object-fit:fill;
+    filter: contrast(110%);
+    filter: saturate(300%);
+}
+
+#minicard {
+    font-family: 'League Gothic', sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#cardDesc {
+    overflow: scroll;
+    height:100px;
+    font-size: small;
+}
+
+#tituloSite {
+    font-size: xx-large;
+    color: red;
+    font-family: 'Dancing Script', cursive;
+}
